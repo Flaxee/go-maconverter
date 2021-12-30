@@ -9,10 +9,10 @@ SetTitleMatchMode, 2
 Run "maconverter.exe" --cisco, ,Hide
 Return
 
-; ESS, xx:xx:xx:xx:xx:xx
+; Nokia, xx:xx:xx:xx:xx:xx
 +^2:: ;CTRL+Shift+2
-; Run "D:\repositories\Projects\go\maconverter\maconverter.exe" --ess, ,Hide
-Run "maconverter.exe" --ess, ,Hide
+; Run "D:\repositories\Projects\go\maconverter\maconverter.exe" --nokia, ,Hide
+Run "maconverter.exe" --nokia, ,Hide
 Return
 
 ; Huawei, xxxx-xxxx-xxxx
