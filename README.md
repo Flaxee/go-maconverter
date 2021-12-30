@@ -1,6 +1,6 @@
 # Readme
 
-This is a small application/package written in Go, which converts/translates MAC-adresses from one format to another.<br/>
+This is a small application written in Go, which converts/translates MAC-adresses from one format to another.<br/>
 The following 3 formats are currently available:<br/>
 xxxx.xxxx.xxxx<br/>
 xx:xx:xx:xx:xx:xx<br/>
