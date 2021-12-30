@@ -30,7 +30,7 @@ func insertInto(s string, interval int, sep rune) string {
 type options struct {
 	Help   bool `short:"h" long:"help" description:"Show this help message"`
 	Cisco  bool `short:"C" long:"cisco" description:"Cisco format, xxxx.xxxx.xxxx"`
-	ESS    bool `short:"E" long:"ess" description:"ESS format, xx:xx:xx:xx:xx:xx"`
+	Nokia    bool `short:"E" long:"nokia" description:"Nokia format, xx:xx:xx:xx:xx:xx"`
 	Huawei bool `short:"H" long:"huawei" description:"Huawei format, xxxx-xxxx-xxxx"`
 }
 
@@ -69,7 +69,7 @@ func main() {
 			// fmt.Println(processedMAC, "is a valid MAC address")
 			// fmt.Println(insertInto(processedMAC, 4, '-'))
 			clipboard.WriteAll(insertInto(processedMAC, 4, '-'))
-		} else if opts.ESS {
+		} else if opts.Nokia {
 			// fmt.Println(processedMAC, "is a valid MAC address")
 			// fmt.Println(insertInto(processedMAC, 2, ':'))
 			clipboard.WriteAll(insertInto(processedMAC, 2, ':'))
